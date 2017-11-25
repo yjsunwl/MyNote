@@ -1,5 +1,5 @@
-1.	核心 重写PageListener方法implements OnPageChangeListener，包括：onPageScrolled，onPageScrollStateChanged，onPageSelected。
-2.	增加了tab的文字、icon方法。
-3.	onDraw，重画tab，分割线、下划线。
-4.	view的创建过程  mesure ,layout,draw。可重写相关方法。
+1.核心 重写PageListener方法implements OnPageChangeListener，包括：onPageScrolled，onPageScrollStateChanged，onPageSelected。
+2.增加了tab的文字、icon方法。
+3.onDraw，重画tab，分割线、下划线。
+4.view的创建过程  mesure ,layout,draw。可重写相关方法。
 
