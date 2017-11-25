@@ -1,0 +1,3 @@
+1.GestureDetector.OnGestureListener   onDown onShowPress onSingleTapUp onScroll onLongPress onFling
+2.GestureDetector.OnDoubleTapListener  onSingleTapConfirmed onDoubleTap onDoubleTapEvent
+3.
