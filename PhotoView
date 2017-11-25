@@ -1,3 +1,5 @@
 1.GestureDetector.OnGestureListener   onDown onShowPress onSingleTapUp onScroll onLongPress onFling
 2.GestureDetector.OnDoubleTapListener  onSingleTapConfirmed onDoubleTap onDoubleTapEvent
-3.
+3.ScaleGestureDetector  缩放手势
+4.定义 CustomGestureDetector
+5.
