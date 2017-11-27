@@ -1,5 +1,8 @@
 1.GestureDetector.OnGestureListener   onDown onShowPress onSingleTapUp onScroll onLongPress onFling
 2.GestureDetector.OnDoubleTapListener  onSingleTapConfirmed onDoubleTap onDoubleTapEvent
 3.ScaleGestureDetector  缩放手势
-4.定义 CustomGestureDetector
-5.
+4.定义 CustomGestureDetector 自定义手势检测 包括拖动 点击 抬起
+5.Util 是否支持缩放，当是MATRIX时，由于是自定义，不支持
+6.Compat 兼容低版本view.postOnAnimation，旋转后移位
+7.PhotoViewAttacher 核心类
+checkMatrixBounds 检测显示范围是不是在边界上，如果是在边界上，允许父窗口拦截滑动手势。
