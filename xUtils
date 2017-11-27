@@ -1,0 +1,6 @@
+1.View模块 利用注解和动态代理的原理
+a)核心函数 injectObject 遍历注入对象的fields和method，当不为空时，绑定资源或事件
+b)ViewFinder 先从parent中寻找 再从本view中寻找
+c)ResLoader 多资源类型的读取
+d)ViewInjectInfo 注入view的信息获取
+e)EventListenerManager.addEventMethod  注入事件
