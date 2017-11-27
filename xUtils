@@ -2,5 +2,10 @@
 a)核心函数 injectObject 遍历注入对象的fields和method，当不为空时，绑定资源或事件
 b)ViewFinder 先从parent中寻找 再从本view中寻找
 c)ResLoader 多资源类型的读取
-d)ViewInjectInfo 注入view的信息获取
-e)EventListenerManager.addEventMethod  注入事件
+d)ViewInjectInfo 注入资源的信息获取
+e)EventListenerManager.addEventMethod(   注入事件  动态代理        
+            ViewFinder finder,   注入view，例如button，layout等 handler的成员变量
+            ViewInjectInfo info,  注入资源信息 资源id 父id
+            Annotation eventAnnotation, 注入事件，点击，长按，滑动等
+            Object handler,注入对象
+            Method method)  注入的方法名称
