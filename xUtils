@@ -9,3 +9,6 @@ e)EventListenerManager.addEventMethod(   注入事件  动态代理
             Annotation eventAnnotation, 注入事件，点击，长按，滑动等
             Object handler,注入对象
             Method method)  注入的方法名称
+2.db模块 注解、反射、数据库基本操作
+a)核心类DBUtils Daoconfig 及对外接口
+b)converter entity中数据类型转换为sql数据类型，核心类ColumnConverterFactory
