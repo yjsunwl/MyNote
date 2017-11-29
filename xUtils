@@ -12,3 +12,7 @@ e)EventListenerManager.addEventMethod(   注入事件  动态代理
 2.db模块 注解、反射、数据库基本操作
 a)核心类DBUtils Daoconfig 及对外接口
 b)converter entity中数据类型转换为sql数据类型，核心类ColumnConverterFactory
+c)Table Colomn Id等 是注解类，用于给entity加注解
+d)SqlInfo Sql语句
+e)WhereBuilder Selector Sql语句的组合逻辑
+3.Http模块
